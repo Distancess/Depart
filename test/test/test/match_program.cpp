@@ -36,15 +36,13 @@ void match_program::match_algorithm() {
 			wishtmp[j].stu_index = j;
 			wishtmp[j].value = rank_value[j][i];
 		}
-		sort(wishtmp, wishtmp + stu_num, cmp1);   //排序  根据权值  学生对该部门
-												  /*for (int j = 0; j < stu_num; j++) {
-												  cout << wishtmp[j].dep_index << " " << wishtmp[j].stu_index << " " << wishtmp[j].value << endl;
-												  }*/
+        /*根据权值进行排序*/
+		sort(wishtmp, wishtmp + stu_num, cmp1);  
+												 
 		addmitted[i].department_no = dep[i].department_no;
 
 		for (int j = 0; j < stu_num; j++) {
-			//cout << wishtmp[j].dep_index << " " << wishtmp[j].stu_index << " " << wishtmp[j].value << endl;
-			//if (stu[wishtmp[j].stu_index].flag == true) continue;
+			
 			if (dep[i].member_limit == 0) break;
 
 			if (wishtmp[j].value != 0) {
@@ -56,10 +54,14 @@ void match_program::match_algorithm() {
 					dep[i].member_limit--;
 
 				}
-				else
-					continue;
+                else
+                {
+                    continue;
+                }
 			}
-			if (wishtmp[j].value == 0) break;
+            if (wishtmp[j].value == 0) { 
+                break;
+            }
 
 		}
 	}

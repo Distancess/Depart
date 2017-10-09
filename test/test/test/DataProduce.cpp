@@ -143,8 +143,6 @@ void DataProduce::ToGenerate()
 /*定制学生库*/
 void DataProduce::CreateStudents(int n)
 {
-	//InitFreeTime();
-	//InitTags();
 	string str_no = "\"031502";  //学生学号，随机产生
 	int tmp;
 	string str;

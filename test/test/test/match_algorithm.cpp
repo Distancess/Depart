@@ -177,7 +177,9 @@ double match_algorithm::match_algorithm_rank(student students, department depart
 			}
 			else if (stu_begin[j] >= dep_begin[i] && stu_end[j] >= dep_end[i]) {
 				if (stu_begin[j] < dep_end[i]) free_total_time += dep_end[i] - stu_begin[j];
-				else  continue;
+                else {
+                    continue;
+                }
 			}
 			else if (stu_end[j] <= dep_end[i] && stu_begin[j] <= dep_begin[i]) {
 				if (stu_end[j] <= dep_begin[i]) { continue; }
