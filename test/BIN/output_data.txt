@@ -349,7 +349,7 @@
          ]
       }
    ],
-   "unlucky_department" : null,
+   "unlucky_department" : [],
    "unlucky_student" : [
       "031502005",
       "031502006",
