@@ -10,7 +10,7 @@ int dep_num = 0;
 
 int unluck_stu_num = 0;
 int unluck_dep_num = 0;
-int addmitted_num = 20;
+int addmitted_num = 0;
 unlucky_stu unlucky_student[305];
 addmit addmitted[25];
 unlucky_dep unlucky_depa[25];
@@ -56,6 +56,7 @@ void data_output() {
 		}
 		dep_num = root["departments"].size();
 		//读取根节点 departments
+        addmitted_num = dep_num;
 		for (int i = 0; i < root["departments"].size(); i++) {
 			//department_no
 			dep[i].index = i;

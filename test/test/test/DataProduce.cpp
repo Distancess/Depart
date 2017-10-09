@@ -233,8 +233,6 @@ void DataProduce::CreateStudents(int n)
 /*定制部门库*/
 void DataProduce::CreateDepartments(int n)
 {
-	//InitEventSchedules();
-	//InitTags();
 	string str_no = "\"D0";
 	string str;
 	stringstream stream;

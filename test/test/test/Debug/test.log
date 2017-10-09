@@ -1,4 +1,25 @@
-﻿  test.cpp
-e:\github\test\test\test\test.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  test.vcxproj -> E:\Github\test\test\Debug\test.exe
-  test.vcxproj -> E:\Github\test\test\Debug\test.pdb (Partial PDB)
+﻿  stdafx.cpp
+e:\github\depart\test\test\test\stdafx.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\github\depart\test\test\test\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\github\depart\test\test\test\targetver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  test.cpp
+e:\github\depart\test\test\test\test.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  match_program.cpp
+  match_algorithm.cpp
+e:\github\depart\test\test\test\match_algorithm.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+e:\github\depart\test\test\test\match_algorithm.cpp(79): warning C4018: “<”: 有符号/无符号不匹配
+  function.cpp
+e:\github\depart\test\test\test\function.cpp(37): warning C4018: “<”: 有符号/无符号不匹配
+e:\github\depart\test\test\test\function.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+e:\github\depart\test\test\test\function.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
+e:\github\depart\test\test\test\function.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+e:\github\depart\test\test\test\function.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+e:\github\depart\test\test\test\function.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
+e:\github\depart\test\test\test\function.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
+  DataProduce.cpp
+  正在生成代码...
+json_vc71_libmtd.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“lib_json.pdb”(使用“json_vc71_libmtd.lib(json_reader.obj)”或在“E:\Github\Depart\test\test\Debug\lib_json.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+json_vc71_libmtd.lib(json_value.obj) : warning LNK4099: 未找到 PDB“lib_json.pdb”(使用“json_vc71_libmtd.lib(json_value.obj)”或在“E:\Github\Depart\test\test\Debug\lib_json.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+json_vc71_libmtd.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“lib_json.pdb”(使用“json_vc71_libmtd.lib(json_writer.obj)”或在“E:\Github\Depart\test\test\Debug\lib_json.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  test.vcxproj -> E:\Github\Depart\test\test\Debug\test.exe
+  test.vcxproj -> E:\Github\Depart\test\test\Debug\test.pdb (Partial PDB)
